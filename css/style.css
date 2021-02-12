@@ -1,0 +1,44 @@
+@import url('http://fonts.cdnfonts.com/css/american-typewriter');
+@import url('http://fonts.cdnfonts.com/css/andale-mono');
+@import url('http://fonts.cdnfonts.com/css/comic-san-dy');
+@import url('http://fonts.cdnfonts.com/css/brock-script');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root{
+    --black: #201e21;
+    --darkGreen: #0b2e21;
+    --lightGreen: #11382ab4;
+    --solidGreen: #11382a;
+    --violet: #E99CE3;
+    --brown: #241b15;
+    --darkCream:  #926f58;
+    --cream: #d39d7aa9;
+    --softCream: #f3c5a6;
+}
+body{
+    background-color: var(--black);
+    width: 100%;
+    height: auto;
+    font-family: 'Bungee Inline', cursive;
+    color: var(--violet);
+    display: flex;
+    position: absolute;
+   
+} 
+/* MODO CLARO */
+.light{
+    background-color: var(--darkCream);
+    color: var(--brown);
+}
+.container{
+    position: fixed;
+    width: 70%;
+    height: auto;
+    padding: 0;
+}
+
