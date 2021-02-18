@@ -7,7 +7,7 @@
 
 ***
 
-### Si quiere echarle un vistazo puede darle click a este [enlace](https://carabolanteh.github.io/proyecto-ii-ada/).
+### Si quiere echarle un vistazo puede darle click a este [enlace](https://carabolanteh.github.io/proyecto-memes-copy/).
 
 <br>
 
@@ -16,7 +16,7 @@
 
 ### Si quiere tener el código en su computadora, deberá de seguir estos pasos en su terminal.
 
-- Ir al [repositorio](https://github.com/carabolanteh/proyecto-ii-ada).
+- Ir al [repositorio](https://github.com/carabolanteh/proyecto-memes-copy).
 - Darle click al botón de forkear.
 - Darle click al botón de code color verde.
 - Copiar la url.
@@ -42,10 +42,10 @@
 
 <br>
 
-### Este pagina web no sería lo que es sin la ayuda de [Jonh](https://github.com/Jonhks) y mis compañeras de curso. No me queda más que agradecerles. 🥰
+### Este pagina web no sería lo que es sin la ayuda de [Jonh](https://github.com/Jonhks) [Leydy](https://github.com/leydyk93) y mis compañeras de curso. No me queda más que agradecerles. 🥰
 
 <br>
 
 ***
 
-#### De Hannah, con mucho ❤ ¡para ustedes!
+#### De Hannah, con mucho ❤ 
