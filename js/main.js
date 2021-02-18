@@ -142,6 +142,7 @@ botText.addEventListener('keyup', ()=>{
 topCheck.addEventListener('click', () =>{
     if(topCheck.checked){
         firstText.style.display = 'none';
+        imgEdit.style.height = '250px';
     }else{
         firstText.style.display = 'block';
     }
@@ -149,6 +150,7 @@ topCheck.addEventListener('click', () =>{
 botCheck.addEventListener('click', () =>{
     if(botCheck.checked){
         secondText.style.display = 'none';
+        imgEdit.style.height = '250px';
     }else{
         secondText.style.display = 'block';
     }
@@ -202,7 +204,6 @@ transparent.addEventListener('click', (e) =>{
         firstText.style.position = 'relative';
         secondText.style.position = 'relative';
         back.style.position = 'relative';
-        urlImg.style.height = '220px';
         imgEdit.style.height = '220px'
     }else{
         firstText.style.backgroundColor = 'transparent';
@@ -213,7 +214,6 @@ transparent.addEventListener('click', (e) =>{
         secondText.style.position = 'absolute';
         secondText.style.bottom = '0';
         imgEdit.style.height = '380px';
-        urlImg.style.height = '380px';
     }
 })
 
@@ -275,17 +275,18 @@ const selectFilter = document.getElementById('select-filter');
 getUrl.addEventListener('keyup', (e)=>{
     e.preventDefault();
     const url = getUrl.value;
-    urlImg.setAttribute('src', url);
+    // urlImg.setAttribute('src', url);
+    imgEdit.style.backgroundImage = `url('${url}')`;
     firstText.style.margin = '0';
 })
 getBackground.addEventListener('change', (e) =>{
     e.preventDefault();
     imgEdit.style.backgroundColor = `${getBackground.value}`;
 })
-// selectFilter.addEventListener('change', (e) =>{
-//     e.preventDefault();
-//     imgEdit.style.backgroundBlendMode  = `${selectFilter.value}`;
-// })
+selectFilter.addEventListener('change', (e) =>{
+    e.preventDefault();
+    imgEdit.style.backgroundBlendMode  = `${selectFilter.value}`;
+})
 
 
 

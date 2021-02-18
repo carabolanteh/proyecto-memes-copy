@@ -19,17 +19,15 @@
     flex-wrap: wrap;
     position: relative;
 }
-#url-img{
-    width: 100%;
-    height: 220px;
-    object-fit: fill;
-}
 #img-edit{
     width: 100%;
     height: 220px;
     border: none;
     background-color: black;
     padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .back{
     width: 100%;
